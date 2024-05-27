@@ -15,7 +15,7 @@ To run this website on your local machine, follow these steps:
 
 ```bash
 # Clone the repository 
-git clone 
+git clone https://github.com/sirius-27/website.git
 
 # Install dependencies
 pnpm install
