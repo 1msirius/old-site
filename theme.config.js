@@ -1,6 +1,6 @@
-import { FaXTwitter } from "react-icons/fa6";
-import { FaGithub } from 'react-icons/fa'
-import { AiOutlineMail } from "react-icons/ai";
+import { FaXTwitter } from 'react-icons/fa6'
+import { FaGithub, FaLinkedin, FaGoodreadsG } from 'react-icons/fa'
+import { TbMailFilled } from 'react-icons/tb'
 
 export default {
   darkMode: true,
@@ -21,15 +21,20 @@ export default {
         }
       `}</style>
       <a href="mailto:example@email.com">
-        <AiOutlineMail />
+        <TbMailFilled />
+      </a>
+      <a href="https://github.com/sirius-27">
+        <FaLinkedin />
       </a>
       <a href="https://twitter.com">
-        <FaXTwitter />
+        <FaGoodreadsG />
       </a>
       <a href="https://github.com/sirius-27">
         <FaGithub />
       </a>
+      <a href="https://twitter.com">
+        <FaXTwitter />
+      </a>
     </small>
   )
-  
 }

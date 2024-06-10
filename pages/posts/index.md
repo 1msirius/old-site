@@ -1,6 +1,6 @@
 ---
 type: posts
-title: Thoughts
+title: Blog
 date: 2022-07-28
 ---
 
