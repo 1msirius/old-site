@@ -6,7 +6,7 @@ export default {
   darkMode: true,
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time> {new Date().getFullYear()} </time> © Akshat Talapa.
+      <time> © {new Date().getFullYear()} </time> Akshat.
       <style jsx>{`
         a {
           float: right;
@@ -20,19 +20,19 @@ export default {
           }
         }
       `}</style>
-      <a href="mailto:example@email.com">
+      <a href="mailto:akshattalapa27@gmail.com" target="_blank">
         <TbMailFilled />
       </a>
-      <a href="https://github.com/sirius-27">
+      <a href="https://www.linkedin.com/in/akshattalapa/" target="_blank">
         <FaLinkedin />
       </a>
-      <a href="https://twitter.com">
+      <a href="https://www.goodreads.com/akshattalapa" target="_blank">
         <FaGoodreadsG />
       </a>
-      <a href="https://github.com/sirius-27">
+      <a href="https://github.com/sirius-27" target="_blank">
         <FaGithub />
       </a>
-      <a href="https://twitter.com">
+      <a href="https://twitter.com" target="_blank">
         <FaXTwitter />
       </a>
     </small>

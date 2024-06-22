@@ -1,6 +1,6 @@
 ---
 type: posts
-title: Blog
+title: Posts
 date: 2022-07-28
 ---
 
