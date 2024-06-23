@@ -67,3 +67,10 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+a {
+  text-decoration: underline;
+  text-decoration-color: blue; /* Change the color of the underline */
+  text-decoration-style: solid; /* Options: solid, wavy, dotted, dashed, double */
+  text-decoration-thickness: 2px; /* Adjust the thickness of the underline */
+}
