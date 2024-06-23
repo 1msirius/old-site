@@ -1,6 +1,7 @@
 import { FaXTwitter } from 'react-icons/fa6'
-import { FaGithub, FaLinkedin, FaGoodreadsG } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaGoodreadsG, FaSpotify } from 'react-icons/fa'
 import { TbMailFilled } from 'react-icons/tb'
+const YEAR = new Date().getFullYear()
 
 export default {
   darkMode: true,
@@ -14,7 +15,7 @@ export default {
         >
           CC BY 4.0{' '}
         </a>{' '}
-        © {new Date().getFullYear()}{' '}
+        © {YEAR}{' '}
       </time>{' '}
       Sirius.
       <style jsx>{`
@@ -34,6 +35,9 @@ export default {
         </a>
         <a href="https://www.goodreads.com/akshattalapa" target="_blank">
           <FaGoodreadsG />
+        </a>
+        <a href="https://open.spotify.com/user/31cscbv4s256ppqweoixud5hxq6q?si=135e0066f0574c33" target="_blank">
+          <FaSpotify/>
         </a>
         <a href="https://www.linkedin.com/in/akshattalapa/" target="_blank">
           <FaLinkedin />
