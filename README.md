@@ -1,4 +1,4 @@
-# My personal website
+# Sirius website
 
 Welcome to my website! Feel free to contribute by making pull requests to the posts in the [posts](./pages/posts) directory if you notice any fixes that need to be made!
 

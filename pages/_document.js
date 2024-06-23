@@ -2,8 +2,8 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'My Blog',
-    description: 'Know about me',
+    title: 'Sirius',
+    description: "Sirius's personal site",
     image: 'https://avatars.githubusercontent.com/u/118716346?v=4'
   }
 

@@ -1,7 +1,7 @@
 ---
 type: page
 title: Projects
-date: 2022-07-28
+date: 2022-07-29
 ---
 
 Currently I'm working on:
