@@ -5,6 +5,12 @@ const YEAR = new Date().getFullYear()
 
 export default {
   darkMode: true,
+  navs: [
+    {
+      url: 'https://github.com/shuding/nextra',
+      name: 'Books'
+    }
+  ],
   footer: (
     <small className="block mt-32">
       <time>
@@ -17,7 +23,10 @@ export default {
         </a>{' '}
         © {YEAR}{' '}
       </time>{' '}
-      Sirius.
+      <a className="no-underline hover:underline" href="#" target="_blank">
+        {' '}
+        Sirius.
+      </a>
       <style jsx>{`
         @media screen and (max-width: 480px) {
           article {
@@ -36,8 +45,11 @@ export default {
         <a href="https://www.goodreads.com/akshattalapa" target="_blank">
           <FaGoodreadsG />
         </a>
-        <a href="https://open.spotify.com/user/31cscbv4s256ppqweoixud5hxq6q?si=135e0066f0574c33" target="_blank">
-          <FaSpotify/>
+        <a
+          href="https://open.spotify.com/user/31cscbv4s256ppqweoixud5hxq6q?si=135e0066f0574c33"
+          target="_blank"
+        >
+          <FaSpotify />
         </a>
         <a href="https://www.linkedin.com/in/akshattalapa/" target="_blank">
           <FaLinkedin />
