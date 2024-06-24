@@ -5,25 +5,20 @@ const YEAR = new Date().getFullYear()
 
 export default {
   darkMode: true,
-  navs: [
-    {
-      url: 'https://github.com/shuding/nextra',
-      name: 'Books'
-    }
-  ],
+  head: ({ title }) => (
+    <>
+      <title>
+        {title ? (title !== 'About' ? title + ' | Sirius' : 'Sirius') : 'Sirius'}
+      </title>
+    </>
+  ),
   footer: (
     <small className="block mt-32">
       <time>
-        <a
-          className="no-underline hover:underline"
-          href="https://creativecommons.org/licenses/by/4.0/"
-          target="_blank"
-        >
-          CC BY 4.0{' '}
-        </a>{' '}
+        
         © {YEAR}{' '}
       </time>{' '}
-      <a className="no-underline hover:underline" href="#" target="_blank">
+      <a className="no-underline" href="#" target="_blank">
         {' '}
         Sirius.
       </a>
