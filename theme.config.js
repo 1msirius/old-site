@@ -31,7 +31,7 @@ export default {
         }
       `}</style>
       <div className="flex text-lg gap-3.5 float-right">
-        <a href="https://twitter.com" target="_blank">
+        <a href="https://x.com/Sirius_AI_" target="_blank">
           <FaXTwitter />
         </a>
         <a href="https://github.com/sirius-27" target="_blank">
