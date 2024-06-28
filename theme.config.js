@@ -8,17 +8,22 @@ export default {
   head: ({ title }) => (
     <>
       <title>
-        {title ? (title !== 'About' ? title + ' | Sirius' : 'Sirius') : 'Sirius'}
+        {title
+          ? title !== 'About'
+            ? title + ' | Sirius'
+            : 'Sirius'
+          : 'Sirius'}
       </title>
     </>
   ),
   footer: (
     <small className="block mt-32">
-      <time>
-        
-        © {YEAR}{' '}
-      </time>{' '}
-      <a className="no-underline" href="#" target="_blank">
+      <time>© {YEAR} </time>{' '}
+      <a
+        className="no-underline"
+        href="https://x.com/1msirius_"
+        target="_blank"
+      >
         {' '}
         Sirius.
       </a>
@@ -31,10 +36,10 @@ export default {
         }
       `}</style>
       <div className="flex text-lg gap-3.5 float-right">
-        <a href="https://x.com/Sirius_AI_" target="_blank">
+        <a href="https://x.com/1msirius_" target="_blank">
           <FaXTwitter />
         </a>
-        <a href="https://github.com/sirius-27" target="_blank">
+        <a href="https://github.com/1msirius" target="_blank">
           <FaGithub />
         </a>
         <a href="https://www.goodreads.com/akshattalapa" target="_blank">
