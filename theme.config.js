@@ -1,14 +1,12 @@
-import React from 'react';
-import Footer from './components/footer';
+import React from 'react'
+import Footer from './components/Footer'
 
 const Head = ({ title }) => (
-  <title>
-    {title && title !== 'About' ? `${title} | Sirius` : 'Sirius'}
-  </title>
-);
+  <title>{title && title !== 'About' ? `${title} | Sirius` : 'Sirius'}</title>
+)
 
 export default {
   darkMode: true,
   head: Head,
   footer: <Footer />
-};
+}
