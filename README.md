@@ -16,7 +16,7 @@ Ensure [pnpm](https://pnpm.io) is installed on your system. If not, follow the [
 
 ```
 # download the website code with git
-git clone git clone https://github.com/sirius-27/website.git
+git clone git clone https://github.com/1msirius/website.git
 
 # Navigate into the project directory
 cd website
