@@ -8,5 +8,6 @@ const Head = ({ title }) => (
 export default {
   darkMode: true,
   head: Head,
+  // titleSuffix: ' | Sirius',
   footer: <Footer />
 }
