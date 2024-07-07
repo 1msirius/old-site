@@ -68,9 +68,9 @@ img.next-image {
   color: #69778c;
 }
 
-/* .dark body {
-  background-color: #171717 !important;
-} */
+.dark body {
+  background-color: #111010 !important;
+}
 
 a {
   text-decoration-color: #5e6365 !important;
@@ -78,8 +78,8 @@ a {
   text-decoration-thickness: 1px !important;
 }
 
-.nx-flex a,
+/* .nx-flex a,
 span {
   text-decoration: none !important;
-}
+} */
 
