@@ -1,9 +1,11 @@
 import 'nextra-theme-blog/style.css'
 import Head from 'next/head'
-
 import '../styles/main.css'
+import { MDXComponents } from '../components/mdx'
 
 export default function Nextra({ Component, pageProps }) {
+  const components = MDXComponents()
+
   return (
     <>
       <Head>
@@ -21,7 +23,7 @@ export default function Nextra({ Component, pageProps }) {
           crossOrigin="anonymous"
         />
       </Head>
-      <Component {...pageProps} />
+      <Component {...pageProps} components={components} />
     </>
   )
 }
