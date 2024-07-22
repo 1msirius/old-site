@@ -2,48 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Inter var';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: block;
-  src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'Inter var';
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: block;
-  src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
-  font-named-instance: 'Italic';
+/* Layout */
+.nx-container {
+  max-width: 640px;
 }
 
-body {
-  font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  -webkit-font-smoothing: subpixel-antialiased;
-  font-feature-settings: 'case' 1, 'cpsp' 1, 'dlig' 1, 'cv01' 1, 'cv02',
-    'cv03' 1, 'cv04' 1;
-  font-variation-settings: 'wght' 450;
-  font-variant: common-ligatures contextual;
-  letter-spacing: -0.02em;
-}
-b,
-strong,
-h3,
-h4,
-h5,
-h6 {
-  font-variation-settings: 'wght' 650;
-}
+/* Typography */
 h1 {
-  font-variation-settings: 'wght' 850;
-}
-h2 {
-  font-variation-settings: 'wght' 750;
+  font-size: 28px !important;
+  letter-spacing: -0.8px;
+  font-weight: 600 !important;
 }
 
+h2 {
+  font-weight: 500 !important;
+  letter-spacing: -0.8px;
+}
+
+/* Navigation */
+.nav-line .nav-link {
+  color: #69778c;
+}
+
+/* Links */
+.prose a {
+  color: #0074de;
+}
+
+a {
+  text-decoration-color: #525252 !important;
+  text-underline-offset: 2px !important;
+  text-decoration-thickness: 1px !important;
+}
+
+.nx-flex a,
+.nx-flex span {
+  text-decoration: none;
+  letter-spacing: -0.4px;
+  font-weight: 400;
+}
+
+/* Themes */
+.dark body {
+  background-color: #111010;
+}
+
+.dark p {
+  color: #d4d4d4;
+}
+
+.light p,
+h1,
+h2,
+h3,
+h4 {
+  color: #000;
+}
+
+/* Images */
+img.next-image {
+  margin: 0;
+}
+
+/* Interactive elements */
+details summary {
+  cursor: pointer;
+}
+
+/* High-DPI screens */
 @media screen and (min-device-pixel-ratio: 1.5),
   screen and (min-resolution: 1.5dppx) {
   body {
@@ -51,34 +77,3 @@ h2 {
     -moz-osx-font-smoothing: grayscale;
   }
 }
-
-details summary {
-  cursor: pointer;
-}
-
-img.next-image {
-  margin: 0;
-}
-
-.prose a {
-  color: #0074de;
-}
-
-.nav-line .nav-link {
-  color: #69778c;
-}
-
-/* .dark body {
-  background-color: #111010 !important;
-} */
-
-a {
-  text-decoration-color: #5e6365 !important;
-  text-underline-offset: 2px;
-  text-decoration-thickness: 1px !important;
-}
-
-/* .nx-flex a,
-span {
-  text-decoration: none !important;
-} */
