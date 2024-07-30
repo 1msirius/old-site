@@ -15,7 +15,7 @@ function SocialLink({ href, icon: Icon }) {
 function SocialLinks() {
   return (
     <div className="flex text-lg gap-3.5 float-right">
-      <SocialLink href="https://x.com/1msirius_" icon={FaXTwitter} />
+      <SocialLink href="https://x.com/1tssirius" icon={FaXTwitter} />
       <SocialLink href="https://github.com/1msirius" icon={FaGithub} />
       <SocialLink href="https://www.goodreads.com/akshattalapa" icon={FaGoodreadsG} />
       <SocialLink href="https://open.spotify.com/user/31cscbv4s256ppqweoixud5hxq6q?si=135e0066f0574c33" icon={FaSpotify} />
