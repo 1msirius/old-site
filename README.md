@@ -1,11 +1,11 @@
-# Sirius's website
+# Sirius's old site
 
-Welcome to my website! Feel free to contribute by making pull requests to the posts in the [posts](./pages/posts) directory if you notice any fixes that need to be made!
+My website has moved. You can find the new site [here](https://github.com/1msirius/Site).
 
 ## Configuration
 
 1. Update your name in `theme.config.js` or modify the footer as needed.
-3. Adjust the meta tags in `pages/_document.js` according to your preferences.
+2. Adjust the meta tags in `pages/_document.js` according to your preferences.
 3. Customize the posts located in `pages/posts/*.md` to suit your preferences.
 
 ## Running Locally
@@ -16,7 +16,7 @@ Ensure [pnpm](https://pnpm.io) is installed on your system. If not, follow the [
 
 ```
 # download the website code with git
-git clone git clone https://github.com/1msirius/website.git
+git clone git clone https://github.com/1msirius/old-site.git
 
 # Navigate into the project directory
 cd website
